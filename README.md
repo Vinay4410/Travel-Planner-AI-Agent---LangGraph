@@ -31,6 +31,10 @@ Create your dream itinerary using LLM + Tools + LangGraph + Streamlit.
 ├── agent_setup.py
 ├── travel_agent.py
 ├── utils.py
+
+
+---
+
 .env.example
 
 ## ⚙️ Environment Variables (`.env.example`)
@@ -44,9 +48,15 @@ OPENWEATHER_API_KEY=your-key
 LANGCHAIN_PROJECT=Project-name
 LANGCHAIN_TRACING_V2=true
 
+
+
+---
+
 ▶️ Run Locally
 pip install -r requirements.txt
 streamlit run app.py
+
+---
 
 📦 Exported Plan Format
 Markdown itinerary with:
