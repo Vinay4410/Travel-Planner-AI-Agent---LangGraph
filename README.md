@@ -50,15 +50,13 @@ LANGCHAIN_TRACING_V2=true
 
 
 
----
-
-▶️ Run Locally
+## ▶️ Run Locally
 pip install -r requirements.txt
 streamlit run app.py
 
 ---
 
-📦 Exported Plan Format
+## 📦 Exported Plan Format
 Markdown itinerary with:
 
 🗓️ Daily sections
